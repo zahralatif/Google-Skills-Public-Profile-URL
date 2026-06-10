@@ -40,26 +40,13 @@ const DEMO_PROFILES: Record<string, ProfileData> = {
     ],
     points: 12833
   },
-  "demo-mursal-cloud": {
-    profileId: "6f4bec5d-1791-4bde-9dd7-8f44e521fc4b",
-    userName: "Mursal Gorchuyev",
-    avatarUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-    badgesCount: 12,
-    badges: [
-      { title: "Trivia: Noyabr 2024", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Nov 05, 2024" },
-      { title: "Trivia: Dekabr 2024", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Dec 12, 2024" },
-      { title: "Level 1: Cloud Explorer Game", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Jul 02, 2025" },
-      { title: "Build and Secure Networks in Google Cloud", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned May 15, 2025" },
-      { title: "Get Started with Google Kubernetes Engine", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Jun 01, 2025" },
-      { title: "Create and Manage Cloud Spanner Databases", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Jun 16, 2025" },
-      { title: "Deploy and Manage Cloud Environments with Google Cloud", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Jun 22, 2025" },
-      { title: "Generative AI Fundamentals", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Jul 10, 2025" },
-      { title: "Analyze Images with Gemini in BigQuery", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Jul 12, 2025" },
-      { title: "Automating Infrastructure on Google Cloud with Terraform", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Aug 01, 2025" },
-      { title: "Security Best Practices in Google Cloud", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Aug 02, 2025" },
-      { title: "Monitor and Log with Google Cloud Operations Suite", image: "https://www.cloudskillsboost.google/images/icons/default-avatar.png", earnedDate: "Earned Aug 15, 2025" }
-    ],
-    points: 18450
+  "demo-nigar-cloud": {
+    profileId: "7737200e-68d7-41b6-95aa-4312c8da4146",
+    userName: "Nigar Asadova",
+    avatarUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&auto=format&fit=crop&q=80",
+    badgesCount: 0,
+    badges: [],
+    points: 0
   }
 };
 
@@ -953,10 +940,10 @@ export default function App() {
                     </button>
                     <button
                       type="button"
-                      onClick={() => loadDemoProfile("demo-mursal-cloud", 1)}
+                      onClick={() => loadDemoProfile("demo-nigar-cloud", 1)}
                       className="px-2.5 py-1.5 bg-slate-950 border border-slate-850 hover:border-violet-500/40 rounded-lg text-[10px] text-slate-400 font-mono transition-colors flex items-center gap-1 cursor-pointer"
                     >
-                      <span>Mursal Gorchuyev</span>
+                      <span>Nigar Asadova</span>
                     </button>
                   </div>
 
@@ -1033,10 +1020,10 @@ export default function App() {
                     </button>
                     <button
                       type="button"
-                      onClick={() => loadDemoProfile("demo-mursal-cloud", 2)}
+                      onClick={() => loadDemoProfile("demo-nigar-cloud", 2)}
                       className="px-2.5 py-1.5 bg-slate-950 border border-slate-850 hover:border-violet-500/40 rounded-lg text-[10px] text-slate-400 font-mono transition-colors flex items-center gap-1 cursor-pointer"
                     >
-                      <span>Mursal Gorchuyev</span>
+                      <span>Nigar Asadova</span>
                     </button>
                   </div>
 
@@ -1253,10 +1240,10 @@ export default function App() {
                                 </p>
                                 <button
                                   type="button"
-                                  onClick={() => loadDemoProfile("demo-mursal-cloud", 2)}
+                                  onClick={() => loadDemoProfile("demo-nigar-cloud", 2)}
                                   className="px-3.5 py-1.5 bg-violet-600/15 border border-violet-500/20 hover:border-violet-500/40 text-[11px] font-bold text-violet-300 rounded-xl transition-all cursor-pointer font-sans"
                                 >
-                                  {lang === "eng" ? "Load Mursal (Demo)" : lang === "rus" ? "Загрузить Мурсал (Demo)" : "Mursal Profilini Yüklə (Demo)"}
+                                  {lang === "eng" ? "Load Nigar (Demo)" : lang === "rus" ? "Загрузить Нигяр (Demo)" : "Nigar Profilini Yüklə (Demo)"}
                                 </button>
                               </div>
                             )}
@@ -1372,13 +1359,13 @@ export default function App() {
                     </button>
                     <button
                       type="button"
-                      onClick={() => loadDemoProfile("demo-mursal-cloud")}
+                      onClick={() => loadDemoProfile("demo-nigar-cloud")}
                       className="px-4 py-2.5 bg-slate-950 border-2 border-violet-500/35 hover:border-violet-500/70 rounded-xl text-left text-xs text-slate-300 transition-all flex items-center gap-3 hover:bg-slate-900 group w-full sm:w-fit cursor-pointer animate-fade-in"
-                      title="skills.google/public_profiles/6f4bec5d-1791-4bde-9dd7-8f44e521fc4b"
+                      title="skills.google/public_profiles/7737200e-68d7-41b6-95aa-4312c8da4146"
                     >
                       <User className="w-4 h-4 text-violet-400 shrink-0" />
                       <div>
-                        <div className="font-bold text-slate-100 flex items-center gap-1">Mursal Gorchuyev <span className="bg-violet-500/20 text-violet-300 text-[8px] px-1.5 py-0.2 rounded uppercase font-semibold">LIVE</span></div>
+                        <div className="font-bold text-slate-100 flex items-center gap-1">Nigar Asadova <span className="bg-violet-500/20 text-violet-300 text-[8px] px-1.5 py-0.2 rounded uppercase font-semibold">LIVE</span></div>
                         <div className="text-[9px] text-slate-400">{t.sample2Subtitle}</div>
                       </div>
                     </button>
