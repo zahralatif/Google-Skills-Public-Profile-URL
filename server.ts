@@ -69,7 +69,10 @@ async function startServer() {
       }
 
       // Extract Avatar Image
-      let avatarUrl = $(".public-profile-avatar img, .profile-avatar img, img[src*='avatar']").first().attr("src");
+      let avatarUrl = $("ql-avatar").first().attr("src");
+      if (!avatarUrl) {
+        avatarUrl = $(".public-profile-avatar img, .profile-avatar img, img[src*='avatar']").first().attr("src");
+      }
       if (!avatarUrl) {
         avatarUrl = "/placeholder-avatar.png"; // Fallback placeholder
       }
@@ -133,6 +136,25 @@ async function startServer() {
         });
       }
 
+      // Extract profile points from HTML
+      let points = 0;
+      const leagueText = $(".profile-league").first().text().trim();
+      if (leagueText) {
+        const matches = leagueText.match(/(\d+[\d,]*)\s*points/i);
+        if (matches) {
+          points = parseInt(matches[1].replace(/,/g, ""), 10) || 0;
+        }
+      }
+      
+      // Fallback: search the entire body HTML text for "X points"
+      if (!points) {
+        const bodyText = $("body").text();
+        const matches = bodyText.match(/(\d+[\d,]*)\s*points/i);
+        if (matches) {
+          points = parseInt(matches[1].replace(/,/g, ""), 10) || 0;
+        }
+      }
+
       res.json({
         status: "success",
         profileId,
@@ -140,6 +162,7 @@ async function startServer() {
         avatarUrl,
         badgesCount: badges.length,
         badges,
+        points,
         rawDataLength: html.length
       });
 

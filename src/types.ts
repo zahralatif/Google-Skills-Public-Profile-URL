@@ -12,6 +12,7 @@ export interface ProfileData {
   avatarUrl: string;
   badgesCount: number;
   badges: Badge[];
+  points?: number;
 }
 
 export interface CalculationBreakdown {
