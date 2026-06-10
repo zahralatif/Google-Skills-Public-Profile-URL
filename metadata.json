@@ -1,0 +1,6 @@
+{
+  "name": "Arcade Points Calculator",
+  "description": "Google Cloud Skills Boost profilinizi skan edin, qazandığınız rəsmi nişanları izləyin və karyera istiqamətləri barədə ağıllı məsləhətlər alın.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
