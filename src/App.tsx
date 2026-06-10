@@ -42,7 +42,7 @@ const APP_TRANSLATIONS = {
   aze: {
     subtitleBadge: "Google Skills Profil Skaneri",
     heroTitle: "Google Cloud Profil Analizatoru",
-    heroDesc: "Google Cloud Skills Boost profilinizdəki qazanılmış rəsmi nişanları (badge) dərhal skan edin, istiqamətlər üzrə təsnifləndirin və Gemini AI-dan professional karyera tövsiyələri alın.",
+    heroDesc: "Google Cloud Skills Boost profilinizdəki qazanılmış rəsmi nişanları (badge) dərhal skan edin və kateqoriyalar üzrə təsnifləndirin.",
     totalBadges: "Cəmi Nişanlar",
     classificationTitle: "Texniki Sahələr Üzrə Təsnifat",
     categoryAi: "Süni İntellekt (AI)",
@@ -65,19 +65,19 @@ const APP_TRANSLATIONS = {
     sample2Subtitle: "Mütəxəssis • 5 Nişan",
     sample3Subtitle: "Başlanğıc • 2 Nişan",
     verifiedProfile: "Təsdiqlənmiş Google Cloud Profili",
-    aiAdvisorTitle: "Gemini AI Profil Məsləhətçisi",
-    aiAdvisorSubtitle: "Powered by gemini-3.5-flash",
-    aiAdvisorLabel: "ZƏKA ANALİZİ",
-    aiAdvisorLoading: "Gemini sizin profili rəy süzgəcindən keçirir...",
+    aiAdvisorTitle: "Profil Məsləhətçisi",
+    aiAdvisorSubtitle: "Kateqoriyalar üzrə süzgəc",
+    aiAdvisorLabel: "DƏRHAL ANALİZ",
+    aiAdvisorLoading: "Profil rəy süzgəcindən keçirilir...",
     aiAdvisorLoadingDesc: "Qazanılmış nişanların mövzuları və bacarıq istiqamətləri araşdırılır.",
-    aiAdvisorErrorPrefix: "AI analizi alınmadı:",
-    btnAiAnalyze: "Gemini AI ilə Profilini Analiz Et",
-    btnAiAnalyzing: "AI Analiz Edilir...",
+    aiAdvisorErrorPrefix: "Analiz alınmadı:",
+    btnAiAnalyze: "Profili Analiz Et",
+    btnAiAnalyzing: "Analiz Edilir...",
     foundBadgesTitle: "Tapılmış Rəsmi Nişanlar",
     foundBadgesSub: "Rəsmi profil siyahısı",
     noEarnedDate: "Qazanılma tarixi tapılmadı",
     aboutTitle: "Məlumat analizi haqqında",
-    aboutText: "Google Cloud Boost profilinizin analiz edilməsi tamamilə ictimai (public) profil linkinizi əsas tutaraq icra olunur. Skaner sizin şəxsi məlumatlarınıza, şifrələrinizə və ya hər hansı digər həssas datalarınıza daxil olmur. Qazanılmış rəsmi rəqəmsal nişanlar dərhal Süni İntellekt (Gemini) məsləhətçisinə yönləndirilərək karyera modeliniz formalaşdırılır.",
+    aboutText: "Google Cloud Boost profilinizin analiz edilməsi tamamilə ictimai (public) profil linkinizi əsas tutaraq icra olunur. Skaner sizin şəxsi məlumatlarınıza, şifrələrinizə və ya hər hansı digər həssas datalarınıza daxil olmur. Qazanılmış rəsmi rəqəmsal nişanlar dərhal kateqoriyalar üzrə qruplaşdırılaraq istiqamətiniz müəyyənləşdirilir.",
     systemActive: "Sistem Aktivdir",
     bakuCommunity: "GDG Baku, Azerbaijan",
     enterIdOrUrlError: "Zəhmət olmasa profil ID və ya URL-i daxil edin.",
@@ -99,7 +99,7 @@ const APP_TRANSLATIONS = {
   eng: {
     subtitleBadge: "Google Skills Profile Scanner",
     heroTitle: "Google Cloud Profile Analyzer",
-    heroDesc: "Instantly scan your earned official badges from your Google Cloud Skills Boost profile, classify them by category, and receive professional career recommendations from Gemini AI.",
+    heroDesc: "Instantly scan your earned official badges from your Google Cloud Skills Boost profile and classify them by category.",
     totalBadges: "Total Badges",
     classificationTitle: "Classification by Technical Fields",
     categoryAi: "Artificial Intelligence (AI)",
@@ -122,19 +122,19 @@ const APP_TRANSLATIONS = {
     sample2Subtitle: "Specialist • 5 Badges",
     sample3Subtitle: "Beginner • 2 Badges",
     verifiedProfile: "Verified Google Cloud Profile",
-    aiAdvisorTitle: "Gemini AI Profile Advisor",
-    aiAdvisorSubtitle: "Powered by gemini-3.5-flash",
-    aiAdvisorLabel: "AI INSIGHTS",
-    aiAdvisorLoading: "Gemini is evaluating your profile...",
+    aiAdvisorTitle: "Profile Advisor",
+    aiAdvisorSubtitle: "Filter by categories",
+    aiAdvisorLabel: "INSTANT ANALYSIS",
+    aiAdvisorLoading: "Filtering profile...",
     aiAdvisorLoadingDesc: "Mapping your earned credentials to cloud industry competencies.",
-    aiAdvisorErrorPrefix: "AI analysis failed:",
-    btnAiAnalyze: "Analyze Profile with Gemini AI",
-    btnAiAnalyzing: "AI Analyzing...",
+    aiAdvisorErrorPrefix: "Analysis failed:",
+    btnAiAnalyze: "Analyze Profile",
+    btnAiAnalyzing: "Analyzing...",
     foundBadgesTitle: "Found Official Badges",
     foundBadgesSub: "Official profile list",
     noEarnedDate: "Earned date not found",
     aboutTitle: "About data analysis",
-    aboutText: "The analysis of your Google Cloud Boost profile is based entirely on your public profile link. The scanner does not access your personal data, passwords, or any other sensitive info. Earned official digital badges are instantly forwarded to the AI (Gemini) advisor to construct your personalized career guidance.",
+    aboutText: "The scanning of your Google Cloud Boost profile is based entirely on your public profile link. The scanner does not access your personal data, passwords, or any other sensitive info. Earned official digital badges are instantly filtered and grouped by technical category.",
     systemActive: "System Active",
     bakuCommunity: "GDG Baku, Azerbaijan",
     enterIdOrUrlError: "Please enter a profile ID or URL.",
@@ -156,7 +156,7 @@ const APP_TRANSLATIONS = {
   rus: {
     subtitleBadge: "Анализатор профиля Google Skills",
     heroTitle: "Анализатор профиля Google Cloud",
-    heroDesc: "Мгновенно сканируйте полученные официальные значки (badges) из вашего Google Cloud Skills Boost профиля, классифицируйте их и получайте карьерные рекомендации от Gemini AI.",
+    heroDesc: "Мгновенно сканируйте полученные официальные значки (badges) из вашего Google Cloud Skills Boost профиля и классифицируйте их по категориям.",
     totalBadges: "Всего значков",
     classificationTitle: "Классификация по техническим областям",
     categoryAi: "Искусственный Интеллект (AI)",
@@ -179,19 +179,19 @@ const APP_TRANSLATIONS = {
     sample2Subtitle: "Специалист • 5 значков",
     sample3Subtitle: "Новичок • 2 значка",
     verifiedProfile: "Подтвержденный профиль Google Cloud",
-    aiAdvisorTitle: "Профильный ментор Gemini AI",
-    aiAdvisorSubtitle: "На базе gemini-3.5-flash",
-    aiAdvisorLabel: "АНАЛИЗ ИИ",
-    aiAdvisorLoading: "Gemini производит разбор вашего профиля...",
+    aiAdvisorTitle: "Профильный советник",
+    aiAdvisorSubtitle: "Фильтрация по категориям",
+    aiAdvisorLabel: "МОМЕНТАЛЬНЫЙ АНАЛИЗ",
+    aiAdvisorLoading: "Фильтрация профиля...",
     aiAdvisorLoadingDesc: "Изучаются темы полученных значков и категории ваших навыков.",
-    aiAdvisorErrorPrefix: "Ошибка анализа ИИ:",
-    btnAiAnalyze: "Анализировать профиль с Gemini AI",
-    btnAiAnalyzing: "Идет анализ ИИ...",
+    aiAdvisorErrorPrefix: "Ошибка анализа:",
+    btnAiAnalyze: "Анализировать профиль",
+    btnAiAnalyzing: "Идет анализ...",
     foundBadgesTitle: "Найденные официальные значки",
     foundBadgesSub: "Официальный список профиля",
     noEarnedDate: "Дата получения не найдена",
     aboutTitle: "О веб-анализе",
-    aboutText: "Анализ вашего профиля Google Cloud Boost полностью основан на вашей ссылке на публичный профиль. Сканер не запрашивает персональные данные, пароли или любую другую конфиденциальную информацию. Полученные значки мгновенно отправляются консультанту ИИ (Gemini) для формирования вашей карьерной траектории.",
+    aboutText: "Анализ вашего профиля Google Cloud Boost полностью основан на вашей ссылке на публичный профиль. Сканер не запрашивает персональные данные, пароли или любую другую конфиденциальную информацию. Полученные официальные цифровые значки мгновенно группируются и фильтруются по технологическим категориям.",
     systemActive: "Система Активна",
     bakuCommunity: "GDG Baku, Azerbaijan",
     enterIdOrUrlError: "Пожалуйста, введите ID профиля или URL.",
@@ -225,11 +225,6 @@ export default function App() {
   // Real or selected profile state
   const [profileData, setProfileData] = useState<ProfileData | null>(null);
 
-  // AI analyzer states
-  const [aiLoading, setAiLoading] = useState<boolean>(false);
-  const [aiAnalysis, setAiAnalysis] = useState<string | null>(null);
-  const [aiError, setAiError] = useState<string | null>(null);
-
   // Preset live demo profiles loading helper (attempts to scan live data first, falls back to offline representations if blocked)
   const loadDemoProfile = async (key: string) => {
     const demo = DEMO_PROFILES[key];
@@ -237,8 +232,6 @@ export default function App() {
     setLoading(true);
     setError(null);
     setProfileData(null);
-    setAiAnalysis(null);
-    setAiError(null);
     setShowAllBadges(false);
     setSelectedCategory("all");
     try {
@@ -267,8 +260,6 @@ export default function App() {
     setLoading(true);
     setError(null);
     setProfileData(null);
-    setAiAnalysis(null);
-    setAiError(null);
     setShowAllBadges(false);
     setSelectedCategory("all");
 
@@ -288,40 +279,6 @@ export default function App() {
       setError(err.message || (lang === "eng" ? "Could not read Google Cloud profile. Ensure it is public and try again." : lang === "rus" ? "Не удалось прочитать профиль. Убедитесь, что он открытый." : "Google Cloud Skills Boost profilini oxumaq mümkün olmadı. Profilinizin 'Public' olduğundan əmin olun."));
     } finally {
       setLoading(false);
-    }
-  };
-
-  // Run Gemini analysis through server API
-  const handleAiAnalysis = async () => {
-    if (!profileData) return;
-    setAiLoading(true);
-    setAiAnalysis(null);
-    setAiError(null);
-
-    try {
-      const res = await fetch("/api/analyze-profile", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          userName: profileData.userName,
-          badges: profileData.badges,
-          lang: lang
-        })
-      });
-
-      const data = await res.json();
-      if (!res.ok || data.status === "error") {
-        throw new Error(data.message || "AI analizi icra edilə bilmədi.");
-      }
-
-      setAiAnalysis(data.analysis);
-    } catch (err: any) {
-      console.error(err);
-      setAiError(err.message || (lang === "eng" ? "Could not connect to Gemini AI helper." : lang === "rus" ? "Не удалось связаться с ассистентом Gemini AI." : "Süni İntellekt analizatoru ilə əlaqə yaradılmadı."));
-    } finally {
-      setAiLoading(false);
     }
   };
 
@@ -612,13 +569,13 @@ export default function App() {
                   placeholder={t.inputPlaceholder}
                   value={profileUrlInput}
                   onChange={(e) => setProfileUrlInput(e.target.value)}
-                  className="w-full bg-slate-950 border border-slate-850 hover:border-slate-800 focus:border-violet-500 outline-none rounded-2xl pl-12 pr-4 py-3 sm:py-3.5 text-slate-200 placeholder-slate-600 transition-colors text-sm"
+                  className="w-full bg-slate-950 border border-slate-850 hover:border-slate-800 focus:border-violet-500 outline-none rounded-2xl pl-12 pr-4 py-3 sm:py-3.5 text-slate-200 placeholder-slate-600 transition-colors text-sm font-sans"
                 />
               </div>
               <button
                 type="submit"
                 disabled={loading}
-                className="px-6 py-3 bg-violet-600 hover:bg-violet-500 active:scale-[0.98] text-white font-bold rounded-2xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-violet-600/15 text-sm shrink-0 disabled:opacity-55 font-mono"
+                className="px-6 py-3 bg-violet-600 hover:bg-violet-500 active:scale-[0.98] text-white font-bold rounded-2xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-violet-600/15 text-sm shrink-0 disabled:opacity-55 font-mono cursor-pointer"
               >
                 {loading ? (
                   <>
@@ -639,7 +596,7 @@ export default function App() {
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-4 p-4 bg-red-500/10 border border-red-500/20 text-red-300 rounded-xl text-xs sm:text-sm leading-relaxed"
+                className="mt-4 p-4 bg-red-400/10 border border-red-500/20 text-red-300 rounded-xl text-xs sm:text-sm leading-relaxed"
               >
                 <strong>{t.errorPrefix}</strong> {error}
               </motion.div>
@@ -652,12 +609,12 @@ export default function App() {
                 <button
                   type="button"
                   onClick={() => loadDemoProfile("demo-zohra-cloud")}
-                  className="px-4 py-2.5 bg-slate-950 border-2 border-violet-500/30 hover:border-violet-500/70 rounded-xl text-left text-xs text-slate-300 transition-all flex items-center gap-3 hover:bg-slate-900 group w-full sm:w-fit"
+                  className="px-4 py-2.5 bg-slate-950 border-2 border-violet-500/35 hover:border-violet-500/70 rounded-xl text-left text-xs text-slate-300 transition-all flex items-center gap-3 hover:bg-slate-900 group w-full sm:w-fit cursor-pointer animate-fade-in"
                   title="skills.google/public_profiles/43eb4c10-eb3a-4df8-aa3e-068f2ef96c58"
                 >
                   <User className="w-4 h-4 text-violet-400 shrink-0" />
                   <div>
-                    <div className="font-bold text-slate-100 flex items-center gap-1">Zahra Latif <span className="bg-violet-500/20 text-violet-300 text-[8px] px-1.5 py-0.2 rounded uppercase">LIVE</span></div>
+                    <div className="font-bold text-slate-100 flex items-center gap-1">Zahra Latif <span className="bg-violet-500/20 text-violet-300 text-[8px] px-1.5 py-0.2 rounded uppercase font-semibold">LIVE</span></div>
                     <div className="text-[9px] text-slate-400">{t.sample1Subtitle}</div>
                   </div>
                 </button>
@@ -677,7 +634,7 @@ export default function App() {
                 {/* Profile Header display card */}
                 <div className="bg-slate-900/40 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center gap-5 justify-between relative overflow-hidden group hover:border-slate-700/55 transition-colors duration-300">
                   <div className="absolute -right-4 -top-4 w-28 h-28 bg-violet-500/5 rounded-full blur-2xl pointer-events-none"></div>
-                  <div className="flex items-center gap-4 flex-col sm:flex-row text-center sm:text-left">
+                  <div className="flex items-center gap-4 flex-col sm:flex-row text-center sm:text-left font-sans">
                     <div className="w-16 h-16 rounded-full overflow-hidden bg-slate-950 border-2 border-violet-500/35 flex items-center justify-center shadow-md shrink-0">
                       {profileData.avatarUrl ? (
                         <img src={profileData.avatarUrl} alt={profileData.userName} className="w-full h-full object-cover" onError={(e) => {
@@ -689,96 +646,13 @@ export default function App() {
                     </div>
                     <div>
                       <h4 className="font-display text-xl font-bold text-white leading-snug">{profileData.userName}</h4>
-                      <p className="text-xs text-slate-550 mt-1 font-mono break-all font-semibold">ID: {profileData.profileId}</p>
+                      <p className="text-xs text-slate-400 mt-1 font-mono break-all font-semibold">ID: {profileData.profileId}</p>
                       <span className="inline-flex items-center gap-1.5 text-xs text-slate-350 mt-2 bg-slate-950 px-3 py-1 rounded-xl border border-slate-800 font-medium font-sans">
                         <CheckCircle className="w-3.5 h-3.5 text-emerald-400" /> {t.verifiedProfile}
                       </span>
                     </div>
                   </div>
-                  
-                  <button
-                    onClick={handleAiAnalysis}
-                    disabled={aiLoading}
-                    className="px-6 py-3.5 bg-gradient-to-r from-violet-600 to-indigo-600 hover:from-violet-500 hover:to-indigo-500 active:scale-[0.98] text-white font-bold text-xs rounded-2xl flex items-center gap-2 transition-all shadow-md shrink-0 disabled:opacity-55 font-mono cursor-pointer"
-                  >
-                    {aiLoading ? (
-                      <>
-                        <RefreshCw className="w-3.5 h-3.5 animate-spin" />
-                        {t.btnAiAnalyzing}
-                      </>
-                    ) : (
-                      <>
-                        <Sparkles className="w-3.5 h-3.5 animate-pulse" />
-                        {t.btnAiAnalyze}
-                      </>
-                    )}
-                  </button>
                 </div>
-
-                {/* Gemini AI response panel */}
-                {(aiLoading || aiAnalysis || aiError) && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 15 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="bg-gradient-to-tr from-slate-900/90 to-violet-950/20 border border-violet-500/20 rounded-3xl p-6 sm:p-8 relative shadow-xl overflow-hidden"
-                  >
-                    {/* Ambient corner blur */}
-                    <div className="absolute right-0 top-0 w-32 h-32 bg-violet-600/10 rounded-full blur-2xl" />
-                    
-                    <div className="flex items-center justify-between border-b border-white/5 pb-4 mb-6">
-                      <div className="flex items-center gap-2.5">
-                        <div className="w-9 h-9 bg-violet-600/20 rounded-lg flex items-center justify-center">
-                          <Sparkles className="w-5 h-5 text-violet-300" />
-                        </div>
-                        <div>
-                          <h3 className="font-display text-base font-extrabold text-white">{t.aiAdvisorTitle}</h3>
-                          <p className="text-[10px] text-violet-400 font-mono tracking-wider uppercase mt-0.5">{t.aiAdvisorSubtitle}</p>
-                        </div>
-                      </div>
-                      
-                      <div className="text-[10px] bg-violet-500/10 border border-violet-500/20 text-violet-300 px-2.5 py-1 rounded-full font-mono font-bold">
-                        {t.aiAdvisorLabel}
-                      </div>
-                    </div>
-
-                    {aiLoading ? (
-                      <div className="flex flex-col items-center justify-center py-10 text-center">
-                        <RefreshCw className="w-8 h-8 text-violet-500 animate-spin mb-4" />
-                        <p className="text-slate-300 text-sm font-semibold">{t.aiAdvisorLoading}</p>
-                        <p className="text-slate-500 text-xs mt-2 max-w-sm">{t.aiAdvisorLoadingDesc}</p>
-                      </div>
-                    ) : aiError ? (
-                      <div className="p-5 sm:p-6 bg-red-500/5 border border-red-500/25 rounded-2xl flex flex-col sm:flex-row items-start gap-4 shadow-inner">
-                        <div className="p-3 bg-red-500/10 rounded-xl text-red-400 shrink-0">
-                          <AlertTriangle className="w-5 h-5" />
-                        </div>
-                        <div className="space-y-4 flex-1">
-                          <div>
-                            <h4 className="text-red-400 font-bold text-sm tracking-wide uppercase font-sans">
-                              {t.aiAdvisorErrorPrefix}
-                            </h4>
-                            <p className="text-slate-300 text-xs sm:text-sm mt-1 leading-relaxed">
-                              {aiError}
-                            </p>
-                          </div>
-                          
-                          <button
-                            type="button"
-                            onClick={handleAiAnalysis}
-                            className="inline-flex items-center gap-2 px-4 py-2 bg-red-500/10 hover:bg-red-500/20 border border-red-500/30 hover:border-red-500/50 rounded-xl text-xs font-bold text-red-300 transition-all shadow-md focus:outline-none focus:ring-2 focus:ring-red-500/30 cursor-pointer"
-                          >
-                            <RefreshCw className="w-3.5 h-3.5" />
-                            {lang === "eng" ? "Try Again" : lang === "rus" ? "Повторить попытку" : "Yenidən Cəhd Et"}
-                          </button>
-                        </div>
-                      </div>
-                    ) : aiAnalysis ? (
-                      <div className="prose prose-invert max-w-none prose-sm sm:prose-base font-sans leading-relaxed">
-                        {renderAnalysisMarkdown(aiAnalysis)}
-                      </div>
-                    ) : null}
-                  </motion.div>
-                )}
 
                 {/* List of Crawled badges */}
                 <div>
